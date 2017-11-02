@@ -12,6 +12,6 @@ function ListNode(x) {
 function mergeTwoLinkedLists(l1, l2) {
     if(!l1) return l2;
     if(!l2) return l1;
-    l1.next = mergeTwoLinkedLists(l1.next, l2)
-    return l1
+    l1.next = mergeTwoLinkedLists(l1.next, l2);
+    return l1;
 }
